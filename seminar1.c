@@ -12,8 +12,16 @@ typedef struct Student {
 #define FILENAME "data.txt"
 
 void menu() {
-	printf("     Main Menu \n");
-	printf("============================");
+	printf("        Main Menu \n");
+	printf("========================== \n");
+	printf("[1] Add a new Contact \n");
+	printf("[2] List all Contacts \n");
+	printf("[3] Search for contact \n");
+	printf("[4] Edit a Contact \n");
+	printf("[5] Delete a Contact \n");
+	printf("[0] Exit \n");
+	printf("=========================== \n");
+	printf("Enter the choice : ");
 
 
 
